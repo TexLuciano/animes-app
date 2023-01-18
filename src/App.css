@@ -316,6 +316,20 @@ h1,h2,h3,h5,button, li,a,p,ul{
     
   }
 }
+@media (max-width: 1004px){
+
+ 
+  .overlay .synopsis{
+    width: 230px;
+    height: 300px;
+  }
+  .anime-info:hover .overlay{
+    opacity: 1;
+    width: 260px;
+    height: 370px;
+    
+  }
+}
 @media (max-width: 810px){
 
  
@@ -375,6 +389,20 @@ h1,h2,h3,h5,button, li,a,p,ul{
     width: 260px;
   }
 }
+@media (max-width: 400px){
+  .overlay{
+    left: -5px;
+  }
+    .overlay .synopsis{
+      width: 220px;
+      height: 280px;
+    }
+    .anime-info:hover .overlay{
+      opacity: 1;
+      height: 330px;
+      width: 240px;
+    }
+  }
 @media (max-width: 370px){
 .overlay{
   left: -5px;
@@ -390,6 +418,7 @@ h1,h2,h3,h5,button, li,a,p,ul{
   }
 }
 
+  
 .synopsis::-webkit-scrollbar {
   width: 12px;
   
