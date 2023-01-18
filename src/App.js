@@ -29,7 +29,7 @@ function App() {
   const [adicionado, setAdicionado] = useState(false);
   const [mobile, setMobile] = useState(false);
 
-  const LIMIT = 18;
+  const LIMIT = 12;
   const query = {
     page: {
       limit: LIMIT,
@@ -42,7 +42,7 @@ function App() {
     setFavorito(att);
   };
 
-
+console.log(data)
   useEffect(() => {
     if (text) {
       query.filter = {

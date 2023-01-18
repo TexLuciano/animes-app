@@ -273,7 +273,7 @@ h1,h2,h3,h5,button, li,a,p,ul{
   background: transparent;
   color: #84af97;
 }
-@media (min-width: 1250px){
+@media (min-width: 1340px){
   .anime-info:hover{
     width: 260px;
    }
@@ -287,6 +287,20 @@ h1,h2,h3,h5,button, li,a,p,ul{
     height: 320px;
   }
 
+}
+@media (max-width: 1340px){
+
+ 
+  .overlay .synopsis{
+    width: 200px;
+    height: 270px;
+  }
+  .anime-info:hover .overlay{
+    opacity: 1;
+    width: 220px;
+    height: 310px;
+    
+  }
 }
 @media (max-width: 1250px){
 
@@ -437,10 +451,10 @@ h1,h2,h3,h5,button, li,a,p,ul{
   border-radius: 10px;
 }
 .add-favorito{
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 .add-favorito:hover{
   background: #4dab8c;
