@@ -163,8 +163,6 @@ h1,h2,h3,h5,button, li,a,p,ul{
 
 }
 
-
-
 .disabilite{
   display: hidden;
 }
@@ -388,6 +386,9 @@ h1,h2,h3,h5,button, li,a,p,ul{
     opacity: 1;
     height: 410px;
     width: 290px;
+  }
+  .responsivo{
+    display: none;
   }
 }
 @media (max-width: 750px){

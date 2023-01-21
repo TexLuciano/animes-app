@@ -8,17 +8,7 @@ const maxLeft = (maxItems - 1) / 2;
 
 const Pagination = ({ limit, total, offset, setOffset,  }) => {
 
-  const contentRef = React.useRef();
-   
- 
- 
-useEffect(()=>{
-  if(contentRef)
-  if(contentRef.current)
-  if(contentRef.current.getBoundingClientRect().width < 700){
-    maxItems = 0
-  }
-},[])
+
 
 
   const current = offset ? offset / limit + 1 : 1;
@@ -32,7 +22,7 @@ useEffect(()=>{
   }
 
   return (
-    <ul className="nav-page" ref={contentRef}>
+    <ul className="nav-page" >
       <li>
         <button
           disabled={current === 1 ? 'ativo' : null}
@@ -45,7 +35,7 @@ useEffect(()=>{
       {Array.from({ length: Math.min(maxItems, pages) })
         .map((_, index) => index + first)
         .map((page) => (
-          <li key={page}>
+          <li key={page} className ="responsivo">
             <button
               className={page === current ? 'nav-page__item--active' : null}
               onClick={() => onPage(page)}
