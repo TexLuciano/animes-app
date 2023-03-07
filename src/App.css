@@ -211,15 +211,11 @@ h1,h2,h3,h5,button, li,a,p,ul{
   opacity: 0;
   transform: translateX(-30px);
   animation: animeLeft 0.5s forwards;
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
 }
 
 
-=======
-}
->>>>>>> 3ffbb6d9a7d794d4a3854b9379901fdd0f6809a1
 .container-grid img{
   max-width: 100%;
   border-radius: 10px;
@@ -245,11 +241,7 @@ h1,h2,h3,h5,button, li,a,p,ul{
   position: absolute;
   bottom: 0px;
   width: 232px;
-<<<<<<< HEAD
   height: 320px;
-=======
-  height: 0;
->>>>>>> 3ffbb6d9a7d794d4a3854b9379901fdd0f6809a1
   padding: 1rem;
   background-color: rgba(0,0,0,0.8);
   border-radius: 8px ;
@@ -261,17 +253,6 @@ h1,h2,h3,h5,button, li,a,p,ul{
 }
 
 
-<<<<<<< HEAD
-=======
-.anime-info:hover .overlay{
-  opacity: 1;
-  height: 300px;
- width: 230px;
-}
-
-
-
->>>>>>> 3ffbb6d9a7d794d4a3854b9379901fdd0f6809a1
 
 
 
@@ -286,173 +267,7 @@ h1,h2,h3,h5,button, li,a,p,ul{
   background: transparent;
   color: #84af97;
 }
-<<<<<<< HEAD
 
-=======
-@media (min-width: 1340px){
-  .anime-info:hover{
-    width: 260px;
-   }
-   .anime-info:hover .overlay{
-    opacity: 1;
-    height: 365px;
-   width: 260px;
-  }
-  .overlay .synopsis{
-    width: 240px;
-    height: 320px;
-  }
-
-}
-@media (max-width: 1340px){
-
- 
-  .overlay .synopsis{
-    width: 200px;
-    height: 270px;
-  }
-  .anime-info:hover .overlay{
-    opacity: 1;
-    width: 220px;
-    height: 310px;
-    
-  }
-}
-@media (max-width: 1250px){
-
- 
-  .overlay .synopsis{
-    width: 230px;
-    height: 300px;
-  }
-  .anime-info:hover .overlay{
-    opacity: 1;
-    width: 250px;
-    height: 354px;
-    
-  }
-}
-@media (max-width: 1100px){
-
- 
-  .overlay .synopsis{
-    width: 190px;
-    height: 270px;
-  }
-  .anime-info:hover .overlay{
-    opacity: 1;
-    width: 210px;
-    height: 300px;
-    
-  }
-}
-@media (max-width: 1004px){
-
- 
-  .overlay .synopsis{
-    width: 230px;
-    height: 300px;
-  }
-  .anime-info:hover .overlay{
-    opacity: 1;
-    width: 260px;
-    height: 370px;
-    
-  }
-}
-@media (max-width: 810px){
-
- 
-  .overlay .synopsis{
-    width: 255px;
-    height: 330px;
-  }
-  .anime-info:hover .overlay{
-    opacity: 1;
-    height: 385px;
-    width: 270px;
-  }
-  .btns{
-    display: none;
-  }
-  .close-btn{
-    display: block;
-  }
- 
-}
-@media (max-width: 900px){
-
- 
-  .overlay .synopsis{
-    width: 180px;
-    height: 270px;
-  }
-  .anime-info:hover .overlay{
-    opacity: 1;
-    height: 300px;
-    width: 215px;
-  }
-}
-@media (max-width: 807px){
-
- 
-  .overlay .synopsis{
-    width: 270px;
-    height: 330px;
-  }
-  .anime-info:hover .overlay{
-    opacity: 1;
-    height: 410px;
-    width: 290px;
-  }
-  .responsivo{
-    display: none;
-  }
-}
-@media (max-width: 750px){
-
- 
-  .overlay .synopsis{
-    width: 240px;
-    height: 320px;
-  }
-  .anime-info:hover .overlay{
-    opacity: 1;
-    height: 360px;
-    width: 260px;
-  }
-}
-@media (max-width: 400px){
-  .overlay{
-    left: -5px;
-  }
-    .overlay .synopsis{
-      width: 220px;
-      height: 280px;
-    }
-    .anime-info:hover .overlay{
-      opacity: 1;
-      height: 330px;
-      width: 240px;
-    }
-  }
-@media (max-width: 370px){
-.overlay{
-  left: -5px;
-}
-  .overlay .synopsis{
-    width: 180px;
-    height: 250px;
-  }
-  .anime-info:hover .overlay{
-    opacity: 1;
-    height: 280px;
-    width: 205px;
-  }
-}
-
-  
->>>>>>> 3ffbb6d9a7d794d4a3854b9379901fdd0f6809a1
 .synopsis::-webkit-scrollbar {
   width: 12px;
   
@@ -475,7 +290,6 @@ h1,h2,h3,h5,button, li,a,p,ul{
   border-radius: 5px;
   cursor: pointer;
   margin-top: 15px;
-<<<<<<< HEAD
   z-index: 50;
   display: block;
   text-align: center;
@@ -509,9 +323,3 @@ h1,h2,h3,h5,button, li,a,p,ul{
 
 
 
-=======
-}
-.add-favorito:hover{
-  background: #4dab8c;
-}
->>>>>>> 3ffbb6d9a7d794d4a3854b9379901fdd0f6809a1
