@@ -81,7 +81,7 @@ function App() {
 
   return (
     <div>
-      <NavBar setText={setText} text={text} />
+      <NavBar setText={setText} text={text} mobile={mobile} setMobile={setMobile}/>
       <div className={mobile ? 'menu-mobile' : 'btns'}>
         <button className="favoritos-btn " onClick={modal}>
           Favoritos

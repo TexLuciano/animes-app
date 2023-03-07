@@ -311,8 +311,12 @@ h1,h2,h3,h5,button, li,a,p,ul{
 
 
 @media (max-width: 807px){
-
-
+  .btns{
+    display: none;
+  }
+  .close-btn{
+    display: block;
+  }
  
   
   .responsivo{

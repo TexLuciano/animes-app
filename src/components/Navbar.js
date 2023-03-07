@@ -6,10 +6,10 @@ import x from '../img/x.png';
 import { Nav } from '../style/style';
 import '../App.css';
 
-function NavBar({ setText, text }) {
-  const [mobile, setMobile] = useState(false);
-
+function NavBar({ setText, text, mobile, setMobile }) {
  
+
+ console.log(mobile)
   return (
     <Nav>
       <img src={logo} alt="logo" className="clicavel" />
