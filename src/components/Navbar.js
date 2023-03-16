@@ -9,11 +9,10 @@ import '../App.css';
 function NavBar({ setText, text, mobile, setMobile }) {
  
 
- console.log(mobile)
+
   return (
     <Nav>
-      <img src={logo} alt="logo" className="clicavel" />
-
+      <h1 onClick={()=> window.location.reload()} >My Anime</h1>
       <Search value={text} onChange={(e) => setText(e)} />
       <button className="close-btn" onClick={() => setMobile(!mobile)}>
         <img className="close-img" src={mobile ? x : hambuguer} alt="mobile" />

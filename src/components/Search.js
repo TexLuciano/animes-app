@@ -12,6 +12,7 @@ const Search = ({ value, onChange }) => {
 
   return (
     <input
+      className='search'
       type="search"
       value={displayValue}
       placeholder="Pesquise..."
