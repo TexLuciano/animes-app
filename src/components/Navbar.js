@@ -1,6 +1,4 @@
-import { useState } from 'react';
 import Search from './Search';
-import logo from '../img/icone.PNG';
 import hambuguer from '../img/hamburger.png';
 import x from '../img/x.png';
 import { Nav } from '../style/style';

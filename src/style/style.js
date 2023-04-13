@@ -74,7 +74,6 @@ export const Nav = styled.nav`
   padding: 10px 60px;
   gap: 10px;
 
-
   input {
     width: 250px;
     height: 35px;
@@ -83,12 +82,20 @@ export const Nav = styled.nav`
   button {
     align-self: center;
   }
-  h1{
+  h1 {
     background: black;
-    color:#84af97;
+    color: #84af97;
     padding: 10px;
     font-size: 2rem;
     cursor: pointer;
+  }
+  @media (max-width: 600px) {
+    padding: 5px;
+  }
+  @media (max-width: 400px) {
+    h1{
+      font-size: 1.5rem;
+    }
   }
 `;
 export const Favoritos = styled.ul`
