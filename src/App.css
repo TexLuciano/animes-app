@@ -290,6 +290,7 @@ h1,h2,h3,h5,button, li,a,p,ul{
   z-index: 50;
   display: block;
   text-align: center;
+  background: rgba(0,0,0,0.1);
 }
 .add-favorito:hover{
   background: #4dab8c;

@@ -37,7 +37,7 @@ function App() {
 
  
 
-  console.log(data);
+
   useEffect(() => {
     if (text) {
       query.filter = {
