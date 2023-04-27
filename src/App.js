@@ -80,7 +80,7 @@ function App() {
   }, [favorito]);
 
   return (
-    <div>
+    <div style={{  background: "#daf3ea"}}>
       <NavBar setText={setText} text={text} mobile={mobile} setMobile={setMobile}/>
       <div className={mobile ? 'menu-mobile' : 'btns'}>
         <button className="favoritos-btn " onClick={modal}>

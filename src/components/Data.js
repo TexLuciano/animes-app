@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 
 const Data = ({ data, loading, error, addFavorito }) => {
-  const [mobile, setMobile] = useState(false)
 
-function handleMobile(){
-  setMobile(!mobile)
-}
-console.log(mobile);
+
+
+
   return (
     <>
       {data && data.data.length < 2 && <p>não encontrado</p>}
